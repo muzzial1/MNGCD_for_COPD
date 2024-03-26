@@ -1,7 +1,7 @@
 ## An integrative network-based approach to identify driving gene communities in chronic obstructive pulmonary disease (COPD)
 Supplementary repository to collect the set of scritps to analyze a set of multi-layer networks using multi-network gene community detection (MNGCD) method, based on the partition of maps of information algorithm, to identify subnetworks of strongly interacting genes ('gene communities’), which were then characterized for enrichment with annotated biological functions or sets of regulons. The analysis was applied to establish an integrative network-based approach to identify driving gene communities in chronic obstructive pulmonary disease (COPD).
 
-# Scripts execution flow
+#### Scripts execution flow
 The execution environment is a Unix HPC with slurm parallel execution queue manager, Infomap and R are required. Here we report a description of the executed code to run Infomap and the enrichment analysis of the identified gene communities (scripts avalailable). 
 /**
 1. Run the following bash scripts in the following order after changing in each script the line for j in (ls -1d output_*vero)  replacing the term output_*vero with the name of the file to analyse:
